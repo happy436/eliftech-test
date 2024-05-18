@@ -7,10 +7,20 @@ import {
 	loadEventsList,
 	getEventsLoadingStatus,
 } from "../../store/events";
-import { Button, Card, Tab, TabGroup, TabList } from "@tremor/react";
+import {
+	Button,
+	Card,
+	Dialog,
+	DialogPanel,
+	Tab,
+	TabGroup,
+	TabList,
+} from "@tremor/react";
 import Pagination from "../../components/Pagination";
 import { paginate } from "../../utils/paginate";
 import { convertDate } from "../../utils/convertData";
+import { RiAddBoxLine } from "@remixicon/react";
+import Loader from "../../components/common/Loader";
 
 type EventsProps = {};
 
@@ -20,6 +30,7 @@ export interface Event {
 	description: string;
 	date: Date;
 	organizer: string;
+    eventID:string;
 }
 
 // Тип для списка событий
@@ -27,7 +38,7 @@ type EventsList = Event[];
 
 const Events: React.FC<EventsProps> = () => {
 	const data: EventsList = useSelector(getEvents());
-    const isLoadingStatus = useSelector(getEventsLoadingStatus());
+	const isLoadingStatus = useSelector(getEventsLoadingStatus());
 	const dispatch = useDispatch();
 
 	// завантаження списку
@@ -40,6 +51,8 @@ const Events: React.FC<EventsProps> = () => {
 	const [eventsList, setEventsList] = useState([]);
 	const [activeSearchType, setActiveSearchType] =
 		useState<keyof Event>("title");
+	//const [isOpenModal, setIsOpenModal] = React.useState(false);
+
 	useEffect(() => {
 		setEventsList(data);
 	}, [data]);
@@ -71,12 +84,36 @@ const Events: React.FC<EventsProps> = () => {
 		setCurrentPage(pageIndex);
 	};
 
-	
-	
 	return (
 		<Page>
 			<Page.PageTitle title={"Events"}></Page.PageTitle>
 			<Page.PageContent>
+				{/* 				<Button
+					icon={RiAddBoxLine}
+					className="w-min"
+					onClick={() => setIsOpenModal(true)}
+				>
+					Add Event
+				</Button>
+				<Dialog
+					open={isOpenModal}
+					onClose={(val) => setIsOpenModal(val)}
+					static={true}
+				>
+					<DialogPanel>
+						<h3 className="text-lg font-semibold text-tremor-content-strong dark:text-dark-tremor-content-strong">
+							Create new event!
+						</h3>
+						
+						<Button
+							className="mt-8 w-full"
+							onClick={() => setIsOpenModal(false)}
+						>
+							Got it!
+						</Button>
+					</DialogPanel>
+				</Dialog> */}
+				
 				<TabGroup onIndexChange={handleActiveSearchType}>
 					<TabList variant="line" defaultValue="1">
 						{searchKeyList.map((key) => (
@@ -106,7 +143,7 @@ const Events: React.FC<EventsProps> = () => {
 											<ul className="flex flex-wrap justify-center items-center gap-3">
 												<li>
 													<Link
-														to={`/${event._id}/register`}
+														to={`/${event.eventID}/register`}
 													>
 														<Button>
 															Register
@@ -115,7 +152,7 @@ const Events: React.FC<EventsProps> = () => {
 												</li>
 												<li>
 													<Link
-														to={`/${event._id}/viewers`}
+														to={`/${event.eventID}/viewers`}
 													>
 														<Button>Viewer</Button>
 													</Link>
@@ -136,7 +173,7 @@ const Events: React.FC<EventsProps> = () => {
 						</div>
 					</>
 				) : (
-					<p>Loading</p>
+					(isLoadingStatus) ? <Loader/> : <p className="text-3xl self-center">Empty</p>
 				)}
 			</Page.PageContent>
 		</Page>

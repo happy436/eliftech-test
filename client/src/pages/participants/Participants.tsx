@@ -14,6 +14,7 @@ import {
 } from "../../store/events";
 import { Button, Card, Tab, TabGroup, TabList, TextInput } from "@tremor/react";
 import { RiSearchLine } from "@remixicon/react";
+import Loader from "../../components/common/Loader";
 
 type ParticipantsProps = {};
 
@@ -108,7 +109,9 @@ const Participants: React.FC<ParticipantsProps> = () => {
 						))}
 					</ul>
 				) : (
-					<p>Loading</p>
+					(
+                        (isLoadingStatus) ? <Loader/> : <p className="text-3xl self-center">Empty</p>
+                    )
 				)}
 			</Page.PageContent>
 		</Page>

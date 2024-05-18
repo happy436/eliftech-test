@@ -1,12 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import participantsService from "../services/participants.services";
 
-const mockData = [
-	{ name: "Aiden Nelson", email: "aiden.nelson@example.com" },
-	{ name: "Mila Carter", email: "ryan.rivera@example.com" },
-	{ name: "Ryan Rivera", email: "ela@examp.com" },
-];
-
 const participantsSlice = createSlice({
 	name: "participants",
 	initialState: {

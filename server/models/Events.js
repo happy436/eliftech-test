@@ -1,6 +1,11 @@
 const { Schema, model } = require("mongoose");
 
 const schema = new Schema({
+    eventID: {
+        type: String,
+        required: true,
+        unique: true
+    },
     title: {
         type: String
     },
@@ -15,11 +20,12 @@ const schema = new Schema({
     organizer: {
         type: String,
         required: true
-    },
-    _id: {
+    }
+
+    /*     _id: {
         type: Schema.Types.ObjectId,
         required: true
-    }
+    } */
 });
 
 module.exports = model("Events", schema);

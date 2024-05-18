@@ -30,7 +30,7 @@ router
 router.get("/:eventId", async (req, res) => {
     try {
         const { eventId } = req.params;
-        const event = await Events.findById(eventId);
+        const event = await Events.findOne({eventID: eventId});
         res.status(200).send(event);
     } catch (error) {
         res.status(500).json({

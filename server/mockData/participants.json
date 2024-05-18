@@ -1,112 +1,292 @@
 [
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f8c"
-        },
+        "eventID": "664859e083b6e8639a236f8c",
         "participants": [
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" },
-            { "name": "Alice Brown", "email": "alice.brown@example.com" },
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Emily White", "email": "emily.white@example.com" }
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f8d"
-        },
+        "eventID": "664859e083b6e8639a236f8d",
         "participants": [
-            { "name": "Bob Johnson", "email": "bob.johnson@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" },
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Alice Brown", "email": "alice.brown@example.com" }
+            {
+                "name": "Bob Johnson",
+                "email": "bob.johnson@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f8e"
-        },
+        "eventID": "664859e083b6e8639a236f8e",
         "participants": [
-            { "name": "Emily White", "email": "emily.white@example.com" },
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Alice Brown", "email": "alice.brown@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" }
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f8f"
-        },
+        "eventID": "664859e083b6e8639a236f8f",
         "participants": [
-            { "name": "Alice Brown", "email": "alice.brown@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" },
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Emily White", "email": "emily.white@example.com" }
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f90"
-        },
+        "eventID": "664859e083b6e8639a236f90",
         "participants": [
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Alice Brown", "email": "alice.brown@example.com" },
-            { "name": "Emily White", "email": "emily.white@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" }
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f91"
-        },
+        "eventID": "664859e083b6e8639a236f91",
         "participants": [
-            { "name": "Emily White", "email": "emily.white@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" },
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Alice Brown", "email": "alice.brown@example.com" }
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f92"
-        },
+        "eventID": "664859e083b6e8639a236f92",
         "participants": [
-            { "name": "Alice Brown", "email": "alice.brown@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" },
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Emily White", "email": "emily.white@example.com" }
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f93"
-        },
+        "eventID": "664859e083b6e8639a236f93",
         "participants": [
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Alice Brown", "email": "alice.brown@example.com" },
-            { "name": "Emily White", "email": "emily.white@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" }
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f94"
-        },
+        "eventID": "664859e083b6e8639a236f94",
         "participants": [
-            { "name": "Emily White", "email": "emily.white@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" },
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Alice Brown", "email": "alice.brown@example.com" }
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     },
     {
-        "_id": {
-            "$oid": "664859e083b6e8639a236f95"
-        },
+        "eventID": "664859e083b6e8639a236f95",
         "participants": [
-            { "name": "Alice Brown", "email": "alice.brown@example.com" },
-            { "name": "John Smoth", "email": "johnsmoth@gmail.com" },
-            { "name": "Charlie Green", "email": "charlie.green@example.com" },
-            { "name": "Emily White", "email": "emily.white@example.com" }
+            {
+                "name": "Alice Brown",
+                "email": "alice.brown@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "John Smoth",
+                "email": "johnsmoth@gmail.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Charlie Green",
+                "email": "charlie.green@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            },
+            {
+                "name": "Emily White",
+                "email": "emily.white@example.com",
+                "dateOfBirth": 1730774400000,
+                "hearAboutEvent": "Friends"
+            }
         ]
     }
 ]

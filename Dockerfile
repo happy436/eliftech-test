@@ -1,27 +1,18 @@
-FROM node:14 as client
-
-WORKDIR /app/client
-
-COPY client/package.json /app/client/
-
+# Stage 1: Build client
+FROM node:latest AS client
+WORKDIR /client
+COPY client/package.json ./client/
 RUN npm install
-
-COPY client /app/client/
-
+COPY client ./client/
 RUN npm run build
 
-FROM node:alpine
 
-WORKDIR /app
-
-COPY server/package.json /app/
-
+# Stage 2: Build server
+FROM node:latest AS server
+WORKDIR /server
+COPY server/package.json /.
 RUN npm install
-
-COPY server /app/
-
-COPY --from=client /app/client/build /app/client
-
+COPY server /.
+COPY --from=client /client/build /client
 EXPOSE 8080
-
-CMD ["npm", "start"]
+CMD ["npm", "serve"]

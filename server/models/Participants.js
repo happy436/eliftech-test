@@ -17,9 +17,8 @@ const participantSchema = new Schema({
 });
 
 const eventSchema = new Schema({
-    _id: {
-        type: Schema.Types.ObjectId,
-        ref: "Events",
+    eventID: {
+        type: String,
         required: true
     },
     participants: [participantSchema]

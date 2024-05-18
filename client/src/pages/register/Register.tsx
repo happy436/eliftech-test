@@ -31,7 +31,7 @@ const Register: React.FC<RegisterProps> = () => {
 	const isLoadingStatusEvent = useSelector(getEventsLoadingStatus());
 	const data: Event = useSelector(getEventById(param.id));
 
-	const [formData, setFormData] = useState<Form>({ eventId: param.id });
+	const [formData, setFormData] = useState<Form>({ eventID: param.id });
 
 	useEffect(() => {
 		dispatch(loadEventById(param.id));
@@ -108,7 +108,6 @@ const Register: React.FC<RegisterProps> = () => {
 				<Link to="/">
 					<Button>Back</Button>
 				</Link>
-
 				<Card
 					className="mx-auto max-w-xs"
 					decoration="top"

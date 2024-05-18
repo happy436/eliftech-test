@@ -2,36 +2,20 @@ const express = require("express");
 const router = express.Router({ mergeParams: true });
 const Participants = require("../models/Participants");
 
-router.patch("/:eventID", async (req, res) => {
+router.patch("/:eventId", async (req, res) => {
     try {
-        /* body: {
-            eventId: '664859e083b6e8639a236f8d',
-            name: 'a',
-            email: 'a@a.com',
-            dateOfBirth: 1714510800000,
-            hearAboutEvent: 'Social media'
-          }, */
-        const { eventID } = req.params;
-        const { eventId, ...newData } = req.body;
-        if (eventID) {
-            const newParticipant = await Participants.findByIdAndUpdate(
-                eventID,
-                { $push: { participants: newData } },
+        const { eventId } = req.params;
+        
+        if (eventId) {
+            const newParticipant = await Participants.findOneAndUpdate(
+                {eventID: eventId},
+                { $push: { participants: req.body } },
                 { new: true }
             );
             res.send(newParticipant);
         } else {
             res.status(401).json({ message: "Don't found event" });
         }
-        /* const { eventId } = req.params;
-        if (userId) {
-            const updatedUser = await User.findByIdAndUpdate(userId, req.body, {
-                new: true
-            });
-            res.send(updatedUser);
-        } else {
-            res.status(401).json({ message: "Unauthorized" });
-        } */
     } catch (error) {
         res.status(500).json({
             message: "Error occurred on the server. Please try again later"
@@ -42,7 +26,7 @@ router.patch("/:eventID", async (req, res) => {
 router.get("/:eventId", async (req, res) => {
     try {
         const { eventId } = req.params;
-        const list = await Participants.findById(eventId);
+        const list = await Participants.findOne({eventID: eventId});
         res.status(200).send(list.participants);
     } catch (error) {
         res.status(500).json({
