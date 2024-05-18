@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f8c"
+  },
+  "title": "Okean Elzy in Berlin",
+  "description": "Concert of the legendary Ukrainian rock band Okean Elzy in Berlin.",
+  "date": {
+    "$numberLong": "1732060800000"
+  },
+  "organizer": "Okean Elzy"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f8d"
+  },
+  "title": "Max Barskih in Munich",
+  "description": "Concert of the popular Ukrainian pop artist Max Barskih in Munich.",
+  "date": {
+    "$numberLong": "1729219200000"
+  },
+  "organizer": "Max Barskih"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f8e"
+  },
+  "title": "Antitila in Cologne",
+  "description": "Performance of the famous Ukrainian band Antitila in Cologne.",
+  "date": {
+    "$numberLong": "1729900800000"
+  },
+  "organizer": "Antitila"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f8f"
+  },
+  "title": "DakhaBrakha in Krakow",
+  "description": "Concert of the ethno-chaos band DakhaBrakha in Krakow.",
+  "date": {
+    "$numberLong": "1732492800000"
+  },
+  "organizer": "DakhaBrakha"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f90"
+  },
+  "title": "Bez Obmezhen in Rzeszow",
+  "description": "Performance of the band Bez Obmezhen in Rzeszow, Poland.",
+  "date": {
+    "$numberLong": "1731888000000"
+  },
+  "organizer": "Bez Obmezhen"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f91"
+  },
+  "title": "Kristina Soloviy in Berlin",
+  "description": "Concert of the indie-pop singer Kristina Soloviy in Berlin.",
+  "date": {
+    "$numberLong": "1730774400000"
+  },
+  "organizer": "Kristina Soloviy"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f92"
+  },
+  "title": "LUNA in Poznan",
+  "description": "Performance of LUNA in Poznan, Poland.",
+  "date": {
+    "$numberLong": "1732233600000"
+  },
+  "organizer": "LUNA"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f93"
+  },
+  "title": "Poshlaya Molly in Berlin",
+  "description": "Concert of the pop-punk band Poshlaya Molly in Berlin.",
+  "date": {
+    "$numberLong": "1730419200000"
+  },
+  "organizer": "Poshlaya Molly"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f94"
+  },
+  "title": "ONUKA in Warsaw",
+  "description": "Electro-pop performance of ONUKA in Warsaw.",
+  "date": {
+    "$numberLong": "1731552000000"
+  },
+  "organizer": "ONUKA"
+},
+{
+  "_id": {
+    "$oid": "664859e083b6e8639a236f95"
+  },
+  "title": "Nervy in Hamburg",
+  "description": "Concert of the band Nervy in Hamburg.",
+  "date": {
+    "$numberLong": "1731206400000"
+  },
+  "organizer": "Nervy"
+}]

@@ -1,0 +1,72 @@
+[
+    {
+        
+        "title": "Okean Elzy in Berlin",
+        "description": "Concert of the legendary Ukrainian rock band Okean Elzy in Berlin.",
+        "date": 1732060800000,
+        "organizer": "Okean Elzy"
+    },
+    {
+        
+        "title": "Max Barskih in Munich",
+        "description": "Concert of the popular Ukrainian pop artist Max Barskih in Munich.",
+        "date": 1729219200000,
+        "organizer": "Max Barskih"
+    },
+    {
+        
+        "title": "Antitila in Cologne",
+        "description": "Performance of the famous Ukrainian band Antitila in Cologne.",
+        "date": 1729900800000,
+        "organizer": "Antitila"
+    },
+    {
+        
+        "title": "DakhaBrakha in Krakow",
+        "description": "Concert of the ethno-chaos band DakhaBrakha in Krakow.",
+        "date": 1732492800000,
+        "organizer": "DakhaBrakha"
+    },
+    {
+        
+        "title": "Bez Obmezhen in Rzeszow",
+        "description": "Performance of the band Bez Obmezhen in Rzeszow, Poland.",
+        "date": 1731888000000,
+        "organizer": "Bez Obmezhen"
+    },
+    {
+        
+        "title": "Kristina Soloviy in Berlin",
+        "description": "Concert of the indie-pop singer Kristina Soloviy in Berlin.",
+        "date": 1730774400000,
+        "organizer": "Kristina Soloviy"
+    },
+    {
+        
+        "title": "LUNA in Poznan",
+        "description": "Performance of LUNA in Poznan, Poland.",
+        "date": 1732233600000,
+        "organizer": "LUNA"
+    },
+    {
+        
+        "title": "Poshlaya Molly in Berlin",
+        "description": "Concert of the pop-punk band Poshlaya Molly in Berlin.",
+        "date": 1730419200000,
+        "organizer": "Poshlaya Molly"
+    },
+    {
+        
+        "title": "ONUKA in Warsaw",
+        "description": "Electro-pop performance of ONUKA in Warsaw.",
+        "date": 1731552000000,
+        "organizer": "ONUKA"
+    },
+    {
+        
+        "title": "Nervy in Hamburg",
+        "description": "Concert of the band Nervy in Hamburg.",
+        "date": 1731206400000,
+        "organizer": "Nervy"
+    }
+]
