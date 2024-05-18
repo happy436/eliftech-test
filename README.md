@@ -3,7 +3,6 @@
 ## Folder client & server:
 
 Server:
- - Docker
  - Node.js
  - Express
   
